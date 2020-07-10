@@ -1,5 +1,5 @@
 from sympy import *
-x=symbol('x')
-y=symbol('y')   
+x=Symbol('x')
+y=Symbol('y')   
 integrate(1/(x**4+1), x)
 
